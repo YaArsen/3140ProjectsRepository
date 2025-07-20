@@ -1,0 +1,265 @@
+<b>Текст</b>
+
+<p class="main-text">Текст</p>
+
+<p id="text-in-p">Текст</p>
+
+<div>
+  <p>Какой-то <b>текст</b>. Какой-то <i>текст</i>.</p>
+</div>
+
+<div>
+  <p class="name-class">Какой-то текст.</p>
+</div>
+
+<div>
+  <p id="id">Какой-то текст.</p>
+</div>
+
+<div>
+  <h1>Какой-то текст.</h1>
+</div>
+
+
+
+
+
+
+<a href="https://google.com" class="main-link">Ссылка</a>
+
+<p class="paragraph">Текст</p>
+
+<form>
+  <laber></label>
+  <input type="text" placeholder="Введите что-то" required>
+</form>
+
+<p class="text" title="Some text"></p>
+<p class="text">Simple</p>
+
+<div id="some-id"></div>
+
+
+
+
+
+
+
+Селектор по тегу
+b {
+    color: green;
+}
+
+Селектор по классу
+.main-text {
+    color: green;
+}
+
+Селектор по идентификатору
+#text-in-p {
+    color: green;
+}
+
+Вложенные селекторы
+div b {
+    color: green;
+}
+
+div p b {
+    color: green;
+}
+
+Несколько селекторов
+div b, div i {
+    color: green;
+}
+
+div p b, div p i {
+    color: green;
+}
+
+div, .name-class, #id, div p {
+    color: green;
+}
+
+
+
+
+
+
+
+Псевдоклассы
+.main-link:hover {
+    color: green;
+    text-decoration: none;
+}
+
+text-decoration - line-through, overline, underline.
+.main-link:hover {
+    color:green;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+cursor - no-drop, n-resize, pointer, url('').
+.main-link:hover {
+    cursor: no-drop;
+}
+
+.paragraph:active {
+    text-decoration: line-through;
+}
+
+.main-link:visited {
+    color: grey;
+}
+
+input {
+    color: blue;
+}
+
+input:focus {
+    color: green;
+}
+
+input:required {
+    colore: green;
+}
+
+p.text:empty {
+    color: blue;
+}
+
+p.text:not(:empty) {
+    color: green;
+}
+
+Псевдоэлементы
+#some-id::after {
+    content: '123';
+}
+
+p.text:not(:empty)::after {
+    content: 'Some';
+}
+
+p.text:empty::after {
+    content: attr(title);
+}
+
+p.main-link::first-letter {
+    color: green;
+}
+
+
+p.main-link::first-line {
+    color: green;
+}
+
+p {
+    text-decoration: line-through;
+}
+
+p:first-of-type {
+    color: green;
+}
+
+p:last-of-type {
+    text-decoration: line-through;
+}
+
+.main-link {
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+<div id="first"></div>
+<div id="second"></div>
+
+background-repeat - no-repeat, repeat, repeat-x, repeat-y.
+body {
+    background-color: blue;
+    color: green;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#first {
+    background: green url('') no-repeat center top;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    height: 2000px;
+}
+
+
+
+
+
+<p class="main-text">Text</p>
+
+@import url('');
+
+text-align - center, right, justify.
+.main-text {
+    color: green;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Sansita Swashed', cursive;
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    cursor: copy;
+}
+
+
+
+
+
+
+
+
+
+<div class="block">Simple</div>
+<span class="block">Simple</span>
+
+border - dotted, dashed, solid.
+border-left, border-right, border-bottom, border-top.
+border-top-style, border-top-color, border-top-width.
+margin-left, margin-right, margin-bottom, margin-top.
+padding-left, padding-right, padding-bottom, padding-top.
+display - none, inline, block, table.
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    background: green;
+    height: 200px;
+    width: 200px;
+    border: 7px dotted silver;
+    border-bottom: 0;
+    border-top-style: solid;
+    border-style: double;
+    border-radius: 15px 50% 25px 50px;
+    opacity: 0.9;
+    margin: 20px 50px 100px 200px;
+    padding: 20px 50px 100px 200px;
+    display: block;
+}
