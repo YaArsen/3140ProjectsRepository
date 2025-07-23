@@ -2,8 +2,7 @@
 
 <h2>Member Roles:</h2>
 <ul>
-	<li>Daniel — BackEnd/FrontEnd | <a href="https://github.com/AtomicRecall/">GitHub </a> | <a href="https://raw.githack.com/YaArsen/3140ProjectsRepository/refs/heads/main/Tetris- 
-          Helper/MemberIntroductions/Daniel/SelfIntroduction.html">Daniel'sIntroduction</a></li>
+	<li>Daniel — BackEnd/FrontEnd | <a href="https://github.com/AtomicRecall/">GitHub </a> | <a href="https://raw.githack.com/YaArsen/3140ProjectsRepository/refs/heads/main/Tetris-Helper/MemberIntroductions/Daniel/SelfIntroduction.html">Daniel'sIntroduction</a></li>
 	<li>Yevgeniy — UI/UX/FrontEnd | <a href="https://github.com/yevexe/">GitHub </a> | <a href="https://raw.githack.com/YaArsen/3140ProjectsRepository/refs/heads/main/Tetris-Helper/MemberIntroductions/Yevgeniy/index.html">Yevgeniy's Introduction</a></li>
 	<li>Arsen — Researcher | <a href="https://github.com/YaArsen">GitHub </a> | <a href= "https://raw.githack.com/YaArsen/3140ProjectsRepository/refs/heads/main/Tetris-Helper/MemberIntroductions/Arsen/resume.html">Arsen's Introduction</a></li>
 </ul>
