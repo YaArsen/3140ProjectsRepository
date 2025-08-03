@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+  <body>
+
+    <form id="form">
+      <input type="text" id="username" placeholder="Enter username" required/><br>
+      <textarea id="message" placeholder="Enter message" required></textarea><br>
+      <input type="submit" value="Send"/>
+    </form>
+
+    <div id="allMessages"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
